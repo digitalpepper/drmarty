@@ -1,0 +1,11 @@
+Version 1.0
+ Release
+
+Version 1.1
+ Added Built-in demo data import: one click  - and your website becomes a precise copy of our demo site!
+
+Version 1.2
+ Fixes some css errors. Updated WPBakery Visual Composer
+
+Version 1.3
+ Fixes some css errors. Add user-menu. Fixed Front-End editor.

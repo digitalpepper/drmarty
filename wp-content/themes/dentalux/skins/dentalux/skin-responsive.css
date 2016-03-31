@@ -1,0 +1,1005 @@
+@charset "utf-8";
+
+/* Responsive styles
+-------------------------------------------------------------- */
+
+/*
+Apple iPhone 5, 5S & 5C 
+Apple iPod Touch (5th generation)
+*/
+@media (min-width: 1136px) and (max-width: 1279px) {
+	body {	font-size: 14px; }
+    .tp-bullets.simplebullets.round .bullet.selected:after {
+        width: 13px;
+        height: 13px;
+        top: -5px;
+        left: -5px;
+}
+    .menu_main_wrap .menu_main_nav .sub-menu {
+        margin-top: -0.7em;
+    }
+    .home_3_image img {
+        max-width: 100%;
+    }
+    .home_3_resp{
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section{
+        margin-top: 1em !important;
+    }
+    .home_3_resp .sc_section:last-child{
+        margin-left: 1.5em !important;
+    }
+    .home_3_resp .sc_section .sc_icon{
+        margin-right: 0.2em !important;
+    }
+    .sc_chat .sc_chat_avatar {
+        margin-right: 10px;
+    }
+    .sc_chat:nth-child(odd) .sc_chat_avatar {
+        margin-left: 10px;
+    }
+    .isotope_wrap .isotope_item_masonry .post_item_masonry .post_descr .sc_chat .sc_chat_inner {
+        width: 73%;
+    }
+    .booking_main_container #booking_submit_button, .booking_main_container .booking_clear_custom {
+        padding: 1.5em 1.9em !important;
+    }
+    .sc_slider, .sc_slider .swiper_slide {
+        max-height: none;
+    }
+    .sc_blogger .post_featured img {
+        min-height: 211px;
+    }
+}
+
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+@media (min-width: 960px) and (max-width: 1135px) {
+	body {	font-size: 13px; }
+    .page_top_wrap .breadcrumbs .breadcrumbs_item {
+        margin-top: 1.5em;
+    }
+
+    #slideshow > div > div {
+        margin-left: 10px;
+    }
+    .booking_main_container #booking_submit_button, .booking_main_container .booking_clear_custom {
+        padding: 1.5em 0.2em !important;
+    }
+
+    .sc_chat_inner {
+        width: 78%;
+    }
+
+    .isotope_wrap .isotope_item_masonry .post_item_masonry .post_descr .sc_chat .sc_chat_inner {
+        width: 68%;
+    }
+
+    .sc_contact_form.sc_contact_form_standard .sc_contact_form_field {
+        width: 45%;
+    }
+    .menu_main_wrap.search_opened .menu_main_nav_area{
+        display: none;
+    }
+
+
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8461em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9231em;
+	}
+	.menu_main_wrap .search_wrap {
+		margin-top: 2em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8461em;
+	}
+	.page_top_wrap.page_top_title .breadcrumbs {
+		padding: 2em 0 1em 2.5em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8461em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3846em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.7692em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8461em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8461em;
+	}
+	
+	/* Shortcodes */
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+    .team_hl{
+        width: 25% !important;
+    }
+    .page_top_wrap.page_top_title .breadcrumbs {
+        padding: 1em 0 1em 2.5em;
+    }
+    .menu_main_wrap .menu_main_nav .sub-menu {
+        margin-top: -1em;
+    }
+    .tp-bullets.simplebullets.round .bullet.selected:after {
+        width: 13px;
+        height: 13px;
+        top: -5px;
+        left: -5px;
+    }
+    .sc_team_item .sc_team_item_info .sc_team_item_description {
+        margin-top: 0.5em;
+        max-height: 5em;
+    }
+    .sc_team.sc_team_style_1 .sc_team_item {
+        height: 224px;
+    }
+    .home_3_image img {
+        max-width: 100%;
+    }
+    .home_3_resp{
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section{
+        margin-top: 1em !important;
+    }
+    .home_3_resp .sc_section:last-child{
+        margin-left: 1.5em !important;
+    }
+    .home_3_resp .sc_section .sc_icon{
+        margin-right: 0.2em !important;
+        margin-top: 0.4em;
+    }
+    .home_3_resp .sc_section h4{
+        margin-top: 0;
+    }
+    blockquote.type_2 .sc_quote_info {
+        padding: 2.2em 2em 2.2em 66px;
+        height: 180px;
+    }
+    .sc_slider, .sc_slider .swiper_slide {
+        max-height: none;
+    }
+    .sc_blogger .post_featured img {
+        min-height: 189px;
+    }
+	
+}
+
+
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 800px) and (max-width: 959px) {
+	body {	font-size: 13px; }
+    .page_top_wrap .breadcrumbs .breadcrumbs_item {
+        margin-top: 1.5em;
+    }
+    .menu_main_responsive_button {
+        margin-top: 0.75em;
+    }
+    .home_3_image img {
+        max-width: 100%;
+    }
+    .home_3_resp{
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section{
+        margin-top: 1em !important;
+    }
+    .home_3_resp .sc_section:last-child{
+        margin-left: 1.5em !important;
+    }
+    .home_3_resp .sc_section .sc_icon{
+        margin-right: 0.2em !important;
+        margin-top: 0.4em;
+    }
+    .home_3_resp .sc_section h4{
+        margin-top: 0;
+    }
+    blockquote.type_2 .sc_quote_avatar .sc_image.sc_image_shape_round {
+        border: none;
+    }
+    blockquote.type_2 .sc_quote_info {
+        padding: 10em 2em 1.5em 2em;
+        height: 120px;
+        margin-left: 0;
+    }
+    blockquote.type_2 .sc_quote_avatar {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        left: 0;
+        right: 0;
+    }
+    .sc_contact_form {
+        width: 100%;
+    }
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8461em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9231em;
+	}
+	.menu_main_wrap .search_wrap {
+		margin-top: 2em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8461em;
+	}
+	.page_top_wrap.page_top_title .breadcrumbs {
+		padding: 1em 0 1em 2.5em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8461em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3846em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.7692em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8461em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8461em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.7692em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.75em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+    .tp-bullets.simplebullets.round .bullet.selected:after {
+        width: 13px;
+        height: 13px;
+        top: -5px;
+        left: -5px;
+    }
+    .sc_team_item .sc_team_item_info .sc_team_item_description {
+        margin-top: 0.5em;
+        max-height: 5em;
+    }
+    .sc_team.sc_team_style_1 .sc_team_item {
+        height: 224px;
+    }
+    .home_3_image img {
+        max-width: 100%;
+    }
+    .home_3_resp{
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section{
+        margin-top: 1em !important;
+    }
+    .home_3_resp .sc_section:last-child{
+        margin-left: 1.5em !important;
+    }
+    .home_3_resp .sc_section .sc_icon{
+        margin-right: 0.2em !important;
+        margin-top: 0.4em;
+    }
+    .home_3_resp .sc_section h4{
+        margin-top: 0;
+    }
+    .sc_team.sc_team_style_1 .sc_image.sc_image_shape_round {
+        border-width: 5px;
+    }
+    .sc_team.sc_team_style_1 .team_item_info-container {
+        margin-left: 38px;
+    }
+    .sc_team.sc_team_style_1 .sc_team_item .sc_team_item_info {
+        padding-left: 62px;
+    }
+    .sc_team.sc_team_style_1 .column-1_3 .sc_team_item {
+        height: 260px;
+    }
+    .team_hl{
+        width: 25% !important;
+    }
+    .widget_area .post_item .post_thumb{
+        float: none;
+    }
+    .isotope_wrap .isotope_item_masonry .post_item_masonry .post_descr .sc_chat .sc_chat_inner {
+        width: 60%;
+    }
+    .booking_main_container .booking_clear_custom {
+        padding: 1.5em 0em !important;
+    }
+    .booking_main_container #booking_submit_button {
+
+    }
+    #form_container_all {
+        margin: 0;
+        padding: 0;
+    }
+    #booking_slot_form .booking_border_b_1 {
+        margin-top: 1em;
+    }
+    .booking_main_container #booking_submit_button {
+        width: 140px;
+        padding: 1.5em 1.9em !important;
+    }
+    .booking_main_container .booking_day_book {
+        font-size: 0.7em;
+        width: 94%;
+    }
+    .sc_slider, .sc_slider .swiper_slide {
+        max-height: none;
+    }
+    .h2_block_margins{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .sc_blogger .post_featured img {
+        min-height: 164px;
+    }
+	
+}
+
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+
+
+@media (min-width: 480px) and (max-width: 799px) {
+	body {	font-size: 12px; }
+    .page_top_wrap .breadcrumbs .breadcrumbs_item {
+        margin-top: 1.6em;
+    }
+    #menu-services-menu a {
+        font-size: 1em;
+    }
+    .services_sidebar .sc_icon{
+        float: none;
+    }
+    .sc_contact_form .sc_contact_form_item button {
+        margin: 0;
+    }
+    .menu_user_wrap .menu_user_timetable_area {
+        float: none;
+        text-align: center;
+    }
+    .tp-bullets.simplebullets.round .bullet {
+        display: none;
+    }
+
+    /*  Booking calendar  */
+    .booking_main_container .booking_clear_custom {
+        width: 150px;
+        margin-bottom: 1em;
+        padding: 1em 1em !important;
+    }
+    #form_container_all {
+        margin: 0;
+        padding: 0;
+    }
+    #booking_slot_form .booking_border_b_1 {
+        margin-top: 1em;
+    }
+    .booking_main_container #booking_submit_button {
+        margin-bottom: 1em;
+        margin-left: 0;
+        padding: 1em 1em !important;
+    }
+    .booking_main_container .booking_day_slots {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .booking_main_container .booking_day_name {
+        font-size: 1em;
+    }
+    .booking_main_container {
+        width: 100%;
+    }
+    #booking_slot_form .booking_word_space {
+        font-size: 11px;
+    }
+    .booking_margin_l_20 {
+        margin-left: 0;
+    }
+    #booking_name_days_container {
+        display: none;
+    }
+    .booking_main_container .booking_day_container {
+        width: 24%;
+    }
+    .booking_main_container .booking_day_book {
+        width: 90%;
+    }
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8333em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9167em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8333em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8333em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3333em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.75em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8333em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8333em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.75em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.7em 0.6em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	.sc_tabs .sc_tabs_titles li {
+		font-size:1.25em;
+	}
+	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+		border-width: 1px;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+				border-radius: 4px;
+	}
+    .tp-bullets.simplebullets.round .bullet.selected:after {
+        width: 13px;
+        height: 13px;
+        top: -5px;
+        left: -5px;
+    }
+    .sc_team_item .sc_team_item_info .sc_team_item_description {
+        margin-top: 0.5em;
+        max-height: 8em;
+    }
+    .sc_team.sc_team_style_1 .sc_team_item {
+        height: 300px;
+    }
+    .home_3_image img {
+        max-width: 100%;
+    }
+    .home_3_resp{
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section{
+        margin-top: 1em !important;
+        margin-left: 0 !important;
+        width: 45% !important;
+    }
+    .home_3_resp .sc_section:last-child{
+        margin-left: 1.5em !important;
+    }
+    .home_3_resp .sc_section .sc_icon{
+        margin-right: 0.2em !important;
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section h4{
+        margin-top: 0;
+    }
+    .sc_team.sc_team_style_1 .sc_image.sc_image_shape_round {
+        border-width: 5px;
+    }
+    .sc_team.sc_team_style_1 .team_item_info-container {
+        margin-left: 38px;
+    }
+    .sc_team.sc_team_style_1 .sc_team_item .sc_team_item_info {
+        padding-left: 62px;
+    }
+    .biography{
+        padding: 0;
+        margin: 0;
+    }
+    .team_hl{
+        width: 25% !important;
+    }
+    .widget_area .post_item .post_thumb{
+        float: none;
+    }
+    .isotope_wrap .isotope_item_masonry .post_item_masonry .post_descr .sc_chat .sc_chat_inner {
+        width: 60%;
+    }
+    .sc_team.sc_team_style_1 .sc_team_item .sc_team_item_info {
+        height: 250px;
+    }
+    .ih-item.circle .info .post_title {
+        margin: 5% 10% 5% !important;
+    }
+    .sc_blogger .post_featured img {
+        border: 7px solid #f6f6f6;
+    }
+    .sc_contact_form {
+        width: 100%;
+    }
+    .sc_title {
+        line-height: 1.2em;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    .h2_no_padding h1{
+        margin-left: 0 !important;
+    }
+    .h2_tb{
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+    .h3_tb{
+        margin-top: -8px;
+        margin-left: 0em;
+    }
+    blockquote.type_2 .sc_quote_avatar .sc_image.sc_image_shape_round {
+        border-width: 4px;
+    }
+    blockquote.type_2 .sc_quote_info {
+        padding: 1em 1em 1em 45px;
+        height: 290px;
+    }
+    .sc_price_block .sc_price_block_description {
+        height: 21em;
+    }
+    .pie_diagram_max_value {
+        top: 40%;
+        left: 33%;
+    }
+    .sc_chat_inner {
+        width: 70%;
+    }
+    .booking_font_custom.booking_month_name.booking_month_name_custom {
+        width: 48.5%;
+    }
+    .sc_slider, .sc_slider .swiper_slide {
+        max-height: none;
+    }
+
+    .h2_serv .sc_columns_is_hover_yes .sc_section {
+        min-height: 16em;
+    }
+    .h2_block_margins{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .sc_blogger .post_featured img {
+        min-height: 139px;
+    }
+}
+
+
+
+
+/*
+Very common low res
+*/
+@media (max-width: 479px) {
+	body {	font-size: 12px; }
+    .menu_user_wrap .menu_user_timetable_area {
+        float: none;
+        text-align: center;
+    }
+    .page_top_wrap .breadcrumbs .breadcrumbs_item {
+        margin-top: 1.6em;
+    }
+    .tp-bullets.simplebullets.round .bullet {
+        display: none;
+    }
+
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8333em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9167em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8333em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8333em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3333em;
+	}
+	
+	.layout_single-courses .content .post_info:not(.post_info_bottom) {
+		font-size: 1.25em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.75em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8333em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8333em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.75em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.7em 0.6em;
+	}
+	blockquote {
+		font-size: 1.5em;
+	}
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits,
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_separator {
+		font-size:2em;
+		height: 2em;
+		line-height:2em;
+	}
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits {
+		width: 2em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	.sc_tabs .sc_tabs_titles li {
+		font-size:1.25em;
+	}
+	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+		border-width: 1px;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+				border-radius: 4px;
+	}
+    .tp-bullets.simplebullets.round .bullet.selected:after {
+        width: 13px;
+        height: 13px;
+        top: -5px;
+        left: -5px;
+    }
+    .sc_title {
+        line-height: 1.2em;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    .h2_no_padding h1{
+        margin-left: 0 !important;
+    }
+    .h2_tb{
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+    .h3_tb{
+        margin-top: -8px;
+        margin-left: 0em;
+    }
+    blockquote.type_2 .sc_quote_avatar {
+        left: 0;
+        right: 0;
+        margin: 11em auto 0;
+    }
+    blockquote.type_2 .sc_quote_avatar .sc_image.sc_image_shape_round {
+        border-width: 0px;
+    }
+    blockquote.type_2 .sc_quote_info {
+        padding: 1em 1em 1em 1em;
+        height: 200px;
+        margin: 0;
+    }
+    .sc_skills{
+        width: 100% !important;
+    }
+    .sc_price_block .sc_price_block_description {
+        height: 21em;
+    }
+    .pie_diagram_max_value {
+        top: 40%;
+        left: 33%;
+    }
+    .post_item_404 .search_wrap .search_form_wrap .search_submit {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .sc_chat_inner:after {
+        display: none;
+    }
+    .sc_contact_form {
+        width: 100%;
+    }
+    .logo .logo_text, .bg_tint_dark .logo .logo_text {
+        margin-top: 0.45em;
+    }
+    .home_3_image img {
+        max-width: 100%;
+    }
+    .home_3_resp{
+        margin-top: 0em !important;
+    }
+    .home_3_resp .sc_section{
+        margin-top: 1em !important;
+        margin-left: 0 !important;
+        width: 46% !important;
+    }
+    .home_3_resp .sc_section:last-child{
+        margin-left: 1.5em !important;
+    }
+    .home_3_resp .sc_section .sc_icon{
+        margin-right: 0.2em !important;
+        margin-top: 0.4em;
+        float: none;
+    }
+    table, table *{
+        box-sizing: border-box;
+    }
+    .sc_table table {
+        font-size: 0.7em;
+    }
+    .home_3_resp .sc_section h4 {
+        margin-top: 0;
+    }
+    .sc_table table th, .sc_table table td {
+        padding: 0;
+    }
+    .mejs-controls .mejs-volume-button {
+        margin-right: 0!important;
+    }
+    .mejs-container .mejs-controls .mejs-time {
+        display: none !important;
+    }
+    .team_hl{
+        width: 25% !important;
+    }
+    /*  Booking calendar  */
+    .booking_main_container .booking_clear_custom {
+        width: auto;
+        padding: 1em 1.3em !important;
+    }
+
+    #form_container_all {
+        margin: 0;
+        padding: 0;
+    }
+    #booking_slot_form .booking_border_b_1 {
+        margin-top: 1em;
+    }
+    .booking_main_container #booking_submit_button {
+        width: 150px;
+        padding: 1em 1.9em !important;
+    }
+    .booking_main_container .booking_day_slots {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .booking_main_container .booking_day_name {
+        font-size: 1em;
+    }
+    .booking_main_container {
+        width: 100%;
+    }
+    #booking_slot_form .booking_word_space {
+        font-size: 11px;
+    }
+    .booking_margin_l_20 {
+        margin-left: 10px;
+        float: right;
+    }
+    #booking_name_days_container {
+        display: none;
+    }
+    .booking_main_container .booking_day_container {
+        width: 48%;
+    }
+    #form_container_all,
+    #booking_slot_form {
+        float: none;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .booking_font_custom.booking_month_name.booking_month_name_custom {
+        width: 48.5%;
+    }
+    .sc_slider, .sc_slider .swiper_slide {
+        max-height: none;
+    }
+    .widget_area .widget_product_search .search_button, .widget_area .widget_search .search_button {
+        margin-right: 3em;
+        margin-top: 1em;
+    }
+    .h2_block_margins{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    #form_container_all > div > input {
+        max-width: 100%;
+        width: 100%;
+    }
+    #booking_container textarea {
+        max-width: 100%;
+        width: 100%;
+    }
+    .vc_custom_1434525827694 {
+        margin-left: 0!important;
+    }
+    .h3_column_nomargin h1{
+        margin-left: 0 !important;
+    }
+    .h3_column_nomargin > div{
+        margin-left: 0em !important;
+    }
+    .sc_blogger .post_featured img {
+        min-height: 90px;
+    }
+}
