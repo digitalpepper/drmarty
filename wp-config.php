@@ -18,20 +18,29 @@
  */
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
-/** Nom de la base de données de WordPress. */
+/* local */
 define('DB_NAME', 'drmarty');
-
-/** Utilisateur de la base de données MySQL. */
 define('DB_USER', 'drmarty');
-
-/** Mot de passe de la base de données MySQL. */
 define('DB_PASSWORD', 'drmarty');
-
-/** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
-
-/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8mb4');
+/**/
+
+/* staging * /
+define('DB_NAME', 'mind2web_drmarty');
+define('DB_USER', 'mind2web_drmarty');
+define('DB_PASSWORD', 'Sf@biani1');
+define('DB_HOST', 'mysql-mind2web.alwaysdata.net');
+define('DB_CHARSET', 'utf8');
+/**/
+
+/* prod * /
+define('DB_NAME', 'drmarty');
+define('DB_USER', 'drmarty');
+define('DB_PASSWORD', 'drmarty');
+define('DB_HOST', 'localhost');
+define('DB_CHARSET', 'utf8mb4');
+/**/
 
 /** Type de collation de la base de données.
   * N'y touchez que si vous savez ce que vous faites.
